@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>wdg_home</class>
+ <widget class="QWidget" name="wdg_home">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>974</width>
+    <height>560</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Home</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>530</y>
+     <width>971</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="btn_home">
+      <property name="text">
+       <string>Home</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_denuncia">
+      <property name="text">
+       <string>Denúncia</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>971</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <layout class="QGridLayout" name="gridLayout_2"/>
+    </item>
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="0" column="0">
+       <widget class="QListWidget" name="lv_usuario"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QListWidget" name="lv_boleto"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="lb_nome">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>38</y>
+     <width>967</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nome: </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_cpf">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>84</y>
+     <width>967</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CPF: </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_dataDeNascimento">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>61</y>
+     <width>967</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Data de nascimento: </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>967</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Informações</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_endereco">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>107</y>
+     <width>967</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Endereço: </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>270</y>
+     <width>967</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Boletos</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_boleto1">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>298</y>
+     <width>967</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
